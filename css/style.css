@@ -9,7 +9,7 @@
 
 body{
     text-align: center;
-    background-image: url('/images/background.png');
+    background-image: url('../images/background.png');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -57,23 +57,6 @@ main{
     left: 13.5%;
 }
 
-.button__search{
-    position: absolute;
-    width: 10%;
-    top: 15%;
-    left: 87%;
-    padding: 1.5%;
-    border: 1.5px solid #000;
-    border-radius: 5px;
-    background-color: rgb(107, 107, 107);
-    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-}
-
-.button__search:active{
-    box-shadow: inset -4px 4px 0 #222;
-    font-size: 0.9rem;
-}
-
 .input__search{
     width: 100%;
     padding: 4%;
@@ -84,6 +67,18 @@ main{
     color: #333;
     font-size: clamp(4px, 5vw, 1rem);
     box-shadow: -3px 4px 0 rgb(88, 88, 88), -6px 7px 0 #333;  /*x y tamanho cor;*/
+}
+
+.button__search{
+    position: absolute;
+    width: 10%;
+    top: 15%;
+    left: 87%;
+    padding: 1.5%;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    background-color: rgb(107, 107, 107);
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
 .buttons{
@@ -109,7 +104,7 @@ main{
 }
 
 
-.button:active{
+.button, .button__search:active{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
 }
