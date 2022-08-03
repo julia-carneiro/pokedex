@@ -1,2 +1,3 @@
 # pokedex
 Pokedex feita a partir do tutorial do Manual do Dev - https://github.com/manualdodev
+-- Esse código foi completamente elaborado pelo dono do canal Manual do Dev, que proporciona diversos tutoriais gratuitos no youtube e foi utilizado apenas para fins educativos, contendo poucas mudanças feitas por mim, porém pretendo utilizar do aprendizado adquirido para modificar algumas funcionalidades do código futuramente. 
